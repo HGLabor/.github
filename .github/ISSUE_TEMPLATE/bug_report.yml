@@ -14,6 +14,7 @@ body:
       label: Welcher Client wurde verwendet?
       multiple: false
       options:
+        - Unbekannt
         - NoRiskClient
         - Vanilla
     validations:
