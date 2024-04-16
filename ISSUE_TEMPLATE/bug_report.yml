@@ -1,0 +1,28 @@
+name: Bug Report
+description: File a bug report.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschreibung
+      description: Beschreibe so genau wie möglich wie der Bug zustande kam.
+      placeholder: Details!
+      value: "Es gibt einen Bug wenn ....."
+    validations:
+      required: true
+  - type: dropdown
+    id: client
+    attributes:
+      label: Welcher Client wurde verwendet?
+      multiple: false
+      options:
+        - NoRiskClient
+        - Vanilla
+    validations:
+      required: true
