@@ -2,6 +2,7 @@ name: Bug Report
 description: Einen Bug melden.
 title: "[Bug]: "
 labels: ["bug"]
+projects: ["HGLabor/6"]
 body:
   - type: markdown
     attributes:
