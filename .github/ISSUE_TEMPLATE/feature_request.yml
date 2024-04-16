@@ -1,0 +1,17 @@
+name: Feature Request
+description: Ein neues Feature vorschlagen.
+title: "[Feature]: "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Beschreibe das Feature so genau wie möglich um Rückfragen zu vermeiden.
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschreibung
+      description: Beschreibe das Feature.
+      placeholder: Details!
+    validations:
+      required: true
