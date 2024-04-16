@@ -2,6 +2,7 @@ name: Feature Request
 description: Ein neues Feature vorschlagen.
 title: "[Feature]: "
 labels: ["feature"]
+projects: ["HGLabor/6"]
 body:
   - type: markdown
     attributes:
