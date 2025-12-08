@@ -3,6 +3,7 @@ description: Ein neues Feature vorschlagen.
 title: "[Feature]: "
 labels: ["feature"]
 projects: ["HGLabor/6"]
+type: "Feature"
 body:
   - type: markdown
     attributes:
