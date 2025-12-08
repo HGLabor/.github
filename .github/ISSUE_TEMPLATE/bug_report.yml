@@ -25,6 +25,6 @@ body:
       label: Beschreibung
       description: Beschreibe so genau wie möglich wie der Bug zustande kam.
       placeholder: Details!
-      value: " "
+      value: "Bug: "
     validations:
       required: true
